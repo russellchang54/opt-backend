@@ -8,6 +8,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ImportResource;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * The type Web admin application.
@@ -16,6 +18,8 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @SpringBootApplication
+@EnableAutoConfiguration
+@EnableEurekaClient
 @ImportResource("classpath:dubbo-consumer.xml")
 public class WebAdminApplication {
 

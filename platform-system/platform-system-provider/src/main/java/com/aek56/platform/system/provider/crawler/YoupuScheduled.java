@@ -12,7 +12,7 @@ import us.codecraft.webmagic.Spider;
 @Component
 public class YoupuScheduled {
 
-    @Autowired
+/*    @Autowired
     private YoupuPipeline ratePipeline;
 
     @Scheduled(cron = "0 0/1 * * * ? ")
@@ -23,5 +23,5 @@ public class YoupuScheduled {
                 .thread(5)
                 .run();
     }
-
+*/
 }

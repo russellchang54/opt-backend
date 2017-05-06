@@ -33,3 +33,14 @@ upload:
   #Disk upload
   work-folder-name: /Users/russellchang/files #文件存储路径
   access-url: http://192.168.1.57:8090 #文件访问地址，可使用反向代理
+
+
+eureka:
+  instance:
+#    hostname: userService
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://ebey.aek56.com:19511/eureka/,http://ebey.aek56.com:19512/eureka/
+    healthcheck:
+      enabled: true
