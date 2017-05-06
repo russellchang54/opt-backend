@@ -1,4 +1,4 @@
-# 爱怡康医疗装备平台运营子系统API
+# 医疗装备平台运营子系统API
 基于spring-boot dubbox搭建的java分布式系统
 - 前后端分离
 - spring-security基于角色的权限管理
