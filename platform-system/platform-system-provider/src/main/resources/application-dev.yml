@@ -2,9 +2,9 @@ spring:
   # DataSource Config
   datasource:
     write:
-      url: jdbc:mysql://127.0.0.1:3306/platform?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
+      url: jdbc:mysql://192.168.1.57:13306/opt?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false
       username: root
-      password: ibase4j
+      password: root
       driver-class-name: com.mysql.jdbc.Driver
       max-active: 20
       initial-size: 1
@@ -23,9 +23,9 @@ spring:
       # 合并多个DruidDataSource的监控数据
       #spring.datasource.useGlobalDataSourceStat=true
     read:
-      url: jdbc:mysql://127.0.0.1:3306/platform?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
+      url: jdbc:mysql://192.168.1.57:13306/opt?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false
       username: root
-      password: ibase4j
+      password: root
       driver-class-name: com.mysql.jdbc.Driver
       max-active: 20
       initial-size: 1
@@ -44,8 +44,8 @@ spring:
       # 合并多个DruidDataSource的监控数据
       #spring.datasource.useGlobalDataSourceStat=true
   redis:
-    database: 2
-    host: localhost
+    database: 3
+    host: 192.168.1.57
     #password: # Login password of the redis server.
     port: 6379
     timeout: 0

@@ -1,7 +1,7 @@
 spring:
   redis:
-    database: 0
-    host: localhost
+    database: 1
+    host: 10.8.4.3
     #password: # Login password of the redis server.
     port: 6379
     timeout: 0
