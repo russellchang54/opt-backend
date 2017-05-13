@@ -1,7 +1,7 @@
 package com.aek56.platform.common.web.util;
 
 import com.aek56.platform.common.upload.util.FileIndex;
-import com.aek56.platform.system.api.exception.base.SystemException;
+//import com.aek56.platform.system.api.exception.base.SystemException;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -37,7 +37,7 @@ public final class WebUtils {
         try {
             file.transferTo(upFile);
         } catch (IllegalStateException | IOException ex) {
-            throw new SystemException(ex);
+            //throw new SystemException(ex);
         }
         return upFile;
     }

@@ -14,11 +14,6 @@
     <dependencies>
         <dependency>
             <groupId>com.aek56</groupId>
-            <artifactId>platform-system-api</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.aek56</groupId>
             <artifactId>platform-common-utils</artifactId>
             <version>${project.version}</version>
         </dependency>
