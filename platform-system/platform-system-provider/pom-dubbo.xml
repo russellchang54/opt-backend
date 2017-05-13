@@ -13,7 +13,9 @@
 
     <properties>
         <start-class>com.aek56.platform.system.provider.SysProviderApplication</start-class>
-    </properties>  
+    </properties>
+
+    <profiles>
         <profile>
             <id>local</id>
             <properties>
