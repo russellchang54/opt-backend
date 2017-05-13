@@ -8,7 +8,6 @@
     <artifactId>platform-parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <modules>
-        <module>platform-common</module>
         <module>platform-system</module>
         <module>platform-admin-web</module>
         <module>platform-mobile-client</module>
